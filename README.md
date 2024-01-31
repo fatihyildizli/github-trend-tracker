@@ -3,8 +3,6 @@ Keep an eye on the latest trending repositories on GitHub with this Trend Reposi
 
 [![GitHub stars](https://img.shields.io/github/stars/fatihyildizli/github-trend-tracker.svg)](https://github.com/fatihyildizli/github-trend-tracker/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/fatihyildizli/github-trend-tracker.svg)](https://github.com/fatihyildizli/github-trend-tracker/network/members)
-![Commits](https://badgen.net/github/commits/fatihyildizli/github-trend-tracker/master)
-![Last Commit](https://badgen.net/github/last-commit/fatihyildizli/github-trend-tracker/master)
 ![License](https://img.shields.io/github/license/fatihyildizli/github-trend-tracker)
 ![Code size](https://img.shields.io/github/repo-size/fatihyildizli/github-trend-tracker)
 ![Top Language](https://img.shields.io/github/languages/top/fatihyildizli/github-trend-tracker)
@@ -14,6 +12,58 @@ Keep an eye on the latest trending repositories on GitHub with this Trend Reposi
 
 
 Tracking url: https://github.com/trending
+
+
+
+## Features
+
+- **Real-time Updates**: Stay updated with the latest trending repositories on GitHub as they happen.
+- **Filter by Language**: Easily filter trending repositories by programming language to find projects that match your interests.
+- **Historical Trends**: Explore historical trends and discover how the popularity of different projects has changed over time.
+
+
+**Backend API:**  
+http://localhost:9093/swagger-ui.html
+## Methods
+![img.png](img.png)
+
+## Getting Started
+
+Follow these steps to get started with the GitHub Trend Repositories Tracker:
+
+1. **Installation**: 
+
+   Clone the repository and install the necessary dependencies.
+   ```bash
+   git clone https://github.com/fatihyildizli/github-repo-tracker.git
+   cd github-repo-tracker
+   mvn clean
+   mvn install
+   mvn clean package
+
+2. **Configuration:** 
+
+Configure your preferences, such as application settings and port or log file path, in the application.properties file.
+
+3. **Run the Tracker:** 
+
+   Start the tracker to begin monitoring GitHub trends.
+      ```bash
+    java -Dspring.config.location=target/application.properties -jar target/github-trend-tracker-0.0.1-SNAPSHOT.jar
+ 
+4. **Explore Trends:** 
+  
+   Open the swaggerUI (localhost:9093/swagger-ui.html) or API endpoint to explore the latest trending repositories and historical trends.
+
+
+5. **Contributing:** 
+
+   If you would like to contribute to the GitHub Trend Repositories Tracker, follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and submit a pull request.
+We welcome contributions and feedback from the community!
 
 **Sample Output**
 
@@ -16550,56 +16600,6 @@ Tracking url: https://github.com/trending
 }
 ]
 ```
-
-## Features
-
-- **Real-time Updates**: Stay updated with the latest trending repositories on GitHub as they happen.
-- **Filter by Language**: Easily filter trending repositories by programming language to find projects that match your interests.
-- **Historical Trends**: Explore historical trends and discover how the popularity of different projects has changed over time.
-
-
-**Backend API:**  
-http://localhost:9093/swagger-ui.html
-## Methods
-![img.png](img.png)
-
-## Getting Started
-
-Follow these steps to get started with the GitHub Trend Repositories Tracker:
-
-1. **Installation**: 
-
-   Clone the repository and install the necessary dependencies.
-   ```bash
-   git clone https://github.com/fatihyildizli/github-repo-tracker.git
-   cd github-repo-tracker
-   mvn clean
-   mvn install
-   mvn clean package
-
-2. **Configuration:** 
-
-Configure your preferences, such as application settings and port or log file path, in the application.properties file.
-
-3. **Run the Tracker:** 
-
-   Start the tracker to begin monitoring GitHub trends.
-      ```bash
-    java -Dspring.config.location=target/application.properties -jar target/github-trend-tracker-0.0.1-SNAPSHOT.jar
- 
-4. **Explore Trends:** 
-  
-   Open the swaggerUI (localhost:9093/swagger-ui.html) or API endpoint to explore the latest trending repositories and historical trends.
-
-
-5. **Contributing:** 
-
-   If you would like to contribute to the GitHub Trend Repositories Tracker, follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and submit a pull request.
-We welcome contributions and feedback from the community!
 
 7. **License**
 

@@ -36,7 +36,7 @@ Follow these steps to get started with the GitHub Trend Repositories Tracker:
    Clone the repository and install the necessary dependencies.
    ```bash
    git clone https://github.com/fatihyildizli/github-trend-tracker.git
-   cd github-repo-tracker
+   cd github-trend-tracker
    mvn clean
    mvn install
    mvn clean package
